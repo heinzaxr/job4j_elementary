@@ -15,6 +15,6 @@ public class SqAreaTest {
         int y = 1;
         int expected = 1;
         int out = (int) SqArea.square(x, y);
-        Assert.assertEquals(expected, out);
+        Assert.assertEquals(expected, out, 0.01);
     }
 }
