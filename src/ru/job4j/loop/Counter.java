@@ -2,19 +2,20 @@ package ru.job4j.loop;
 
 public class Counter {
     public static int sum(int start, int finish) {
-        int sum;
-        for (sum = start; sum <= finish; sum++) {
-            sum = sum + finish;
+        int sum = 0;
+        int i;
+        for (i = start; i <= finish; i++) {
+            sum = sum + i;
         }
         return sum;
     }
 
    public static int sumByEven(int start, int finish) {
         int sum = 0;
-       int sum1;
-        for (sum1 = start; sum1 <= finish; sum1++) {
-            if ((sum1 % 2) == 0) {
-                sum = sum + sum1;
+       int index;
+        for (index = start; index <= finish; index++) {
+            if ((index % 2) == 0) {
+                sum = sum + index;
             }
         }
 
