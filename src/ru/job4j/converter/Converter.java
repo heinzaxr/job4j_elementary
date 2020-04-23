@@ -1,5 +1,5 @@
 package ru.job4j.converter;
-/*
+/**
 *Currency converter
 *
 *@author Alexandr Geynts (heinz-axr@ya.ru)
@@ -7,7 +7,8 @@ package ru.job4j.converter;
  */
 
 public class Converter {
-    /* Method rubleToEuro
+    /**
+     * Method rubleToEuro
     *@param value of the Euro currency
     *@return amount in roubles
     */
@@ -15,7 +16,8 @@ public class Converter {
         int rsl = value / 70;
         return rsl;
     }
-    /* Method  rubleToDollar
+    /**
+     * Method  rubleToDollar
      *@param value of the Dollar currency
      *@return amount in roubles
      */
@@ -24,7 +26,7 @@ public class Converter {
         return rsl;
     }
 
-    /*
+    /**
     * Method Main
     *@param args
     */
